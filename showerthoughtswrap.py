@@ -75,22 +75,6 @@ for submission in subreddit.get_top_from_hour(limit=1):
 		addtodb(decimalsplit)
 		decimalsplit = [480, 27, '6f', 75, 67, 68, 74, 0, 0]
 		addtodb(decimalsplit)
-		#decimalsplit = [480, 28, 20, 20, 20, 0, 0, 0, 0]
-		#addtodb(decimalsplit)
-		# for j in split:
-		# 	if i <= 8:
-		# 		val = ord(j)
-		# 		val = hex(val).lstrip("0x")
-		# 		decimalsplit[i] = val
-		# 		i = i+1
-		# 	if i > 8:
-		# 		decimalsplit[1] = k
-		# 		addtodb(decimalsplit)
-		# 		decimalsplit = [480,20,20,20,20,20,20,20,20]
-		# 		i = 2
-		# 		k = k+1
-		# decimalsplit[1] = k
-		# addtodb(decimalsplit)
 		os.system("sudo python timeset.py")
 		if z == 0:
 			time.sleep(3)
